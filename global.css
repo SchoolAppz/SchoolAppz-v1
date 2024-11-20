@@ -65,7 +65,6 @@ main {
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    position: relative; 
 }
 
 .app-item img {
@@ -81,16 +80,7 @@ main {
 }
 
 .hide {
-    display: none;
-    position: absolute; 
-    bottom: 15px;
-    left: 15px; 
-    right: 15px; 
-    background-color: rgba(0, 0, 0, 0.7); 
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+  display: none;
 }
 
 .install-btn {
@@ -109,7 +99,8 @@ main {
     background-color: #005bb5;
 }
 
-.app-item:hover .hide {
+
+.install-btn:hover + .hide {
     display: block;
 }
 
