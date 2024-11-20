@@ -43,9 +43,8 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.nav-btn:hover + .hide {
+.nav-btn:hover {
     background-color: #005bb5;
-    display: block;
 }
 
 /* Main content layout */
