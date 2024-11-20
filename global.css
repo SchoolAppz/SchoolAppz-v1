@@ -96,7 +96,6 @@ main {
 }
 
 .install-btn:hover + .hide {
-    background-color: #005bb5;
     display: block;
 }
 
