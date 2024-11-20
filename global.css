@@ -95,6 +95,11 @@ main {
     transition: background-color 0.3s ease;
 }
 
+.install-btn:hover {
+    background-color: #005bb5;
+}
+
+
 .install-btn:hover + .hide {
     display: block;
 }
