@@ -79,6 +79,10 @@ main {
     margin-top: 10px;
 }
 
+.hide {
+  display: none;
+}
+
 .install-btn {
     background-color: #007aff;
     color: white;
