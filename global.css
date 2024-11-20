@@ -45,6 +45,7 @@ nav {
 
 .nav-btn:hover {
     background-color: #005bb5;
+    display: block;
 }
 
 /* Main content layout */
