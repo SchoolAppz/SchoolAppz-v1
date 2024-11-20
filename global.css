@@ -43,8 +43,9 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.nav-btn:hover {
+.nav-btn:hover + .hide {
     background-color: #005bb5;
+    display: block;
 }
 
 /* Main content layout */
@@ -97,6 +98,7 @@ main {
 
 .install-btn:hover + .hide {
     background-color: #005bb5;
+    display: block;
 }
 
 /* Footer style */
